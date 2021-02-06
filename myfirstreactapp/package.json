@@ -1,0 +1,51 @@
+{
+  "name": "myfirstreactapp",
+  "version": "0.1.0",
+  "homepage": "http://solartools.tech",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "jquery": "^3.5.1",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-range-slider": "^2.0.2",
+    "react-bootstrap-slider": "^3.0.0",
+    "react-dom": "^17.0.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "4.0.1",
+    "react-slide-toggle": "^0.3.5",
+    "react-switch": "^5.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "winBuild": "set \"GENERATE_SOURCEMAP=false\" && set \"PUBLIC_URL=http://solartools.tech\" && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
