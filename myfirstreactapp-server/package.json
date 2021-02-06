@@ -1,0 +1,37 @@
+{
+  "name": "myfirstreactapp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bootstrap": "^4.5.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "node-sass": "^4.14.1",
+    "nodemailer": "^6.4.17",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react-bootstrap": "^1.4.3",
+    "sass": "^1.32.0",
+    "sqlite3": "^5.0.0",
+    "web-vitals": "^0.2.4"
+  }
+}
